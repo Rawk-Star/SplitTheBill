@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Split the Bill</string>
-    <string name="btnEnter">Let\'s Split a Bill!</string>
+    <string name="btnEnter">Get Started</string>
+    <string name="lblBillAmount">Bill Amount:</string>
+    <string name="lblQuality">Quality of Service:</string>
+    <string name="lblNumPeople">Number of People:</string>
+    <string name="lblAmountPerPerson">Amount Per Person:</string>
+    <string name="lblBillPerPerson">Bill:</string>
+    <string name="lblTipPerPerson">Tip:</string>
+    <string name="lblTotalPerPerson">Total:</string>
+    <string name="txtBillAmountHint">Amount</string>
+    <string name="txtNumPeopleHint">Number</string>
+    <string name="btnCalculate">Split the Bill</string>
 </resources>

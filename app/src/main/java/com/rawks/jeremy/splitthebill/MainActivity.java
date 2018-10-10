@@ -1,5 +1,6 @@
 package com.rawks.jeremy.splitthebill;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +17,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         btnStart = findViewById(R.id.btnStart);
-
         btnStart.setOnClickListener(btnStartClick);
     }
     Button.OnClickListener btnStartClick = new Button.OnClickListener()
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity
         @Override
         public void onClick(View v)
         {
-
+            startActivity(new Intent(MainActivity.this, BillSplitActivity.class));
         }
     };
 }
